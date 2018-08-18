@@ -1,0 +1,123 @@
+html {
+	min-height: 100vh;
+}
+body {
+	overflow: hidden;
+	background-color: #002864;
+	min-height: 100vh;
+	margin: 0;
+
+}
+
+#page {
+min-width: 425px;
+height: 100%;
+display: table;
+position: absolute;
+}
+
+#page-content {
+	display: table-cell;
+	vertical-align: middle;
+	padding-bottom: 150px;
+}
+
+#logo {
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+#slogan {
+text-align: center;
+color: #ffbf00;
+font-family: 'Verdana';
+font-weight: bold;
+font-size: 25px;
+padding-top: 25px;
+}
+
+#itemsavailable {
+text-align: center;
+color: #ffbf00;
+font-family: 'Verdana';
+font-weight: bold;
+font-size: 18px;
+padding-top: 2px;
+}
+
+#store-list {
+	font-family: 'Verdana';
+	margin-top: 40px;
+}
+
+#AllGoods {
+	min-width: 455px;
+	transition: 0.3s ease-out;
+	font-size: 13pt;
+	width: 23vw;
+	text-align: center;
+	background-color: #ffbf00;
+	margin: 0 auto;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border: 5px solid #ffbf00;
+	color: #002864;
+}
+#AllGoods:hover {
+	transition: 0.3s ease-out;
+	background-color: #002864;
+	color: #ffbf00;
+}
+
+#TradeMe {
+	min-width: 455px;
+	transition: 0.3s ease-out;
+	font-size: 13pt;
+	width: 23vw;
+	text-align: center;
+	background-color: #ffbf00;
+	margin: 0 auto;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border: 5px solid #ffbf00;
+	margin-top: 15px;
+	color: #002864;
+}
+#TradeMe:hover {
+	transition: 0.3s ease-out;
+	background-color: #002864;
+	color: #ffbf00;
+}
+
+#store-list a {
+	text-decoration: none;
+	color: #ffbf00 !important;
+}
+
+.promotion {
+	font-style: italic;
+}
+
+#footer {
+	color: #ffbf00;
+	position: absolute;
+	height: 50px;
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+
+#footer p a {
+	color: white;
+}
+
+#social {
+	padding-top: 50px;
+	text-align: center;
+}
+
+#facebookicon {
+	padding-left: 40px;
+}
