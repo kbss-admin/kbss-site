@@ -2,11 +2,9 @@ html {
 	min-height: 100vh;
 }
 body {
-	overflow: hidden;
-	background-color: aliceblue;
+	background-color: rgb(245, 250, 253);
 	min-height: 100vh;
 	margin: 0;
-
 }
 
 #page {
@@ -63,6 +61,7 @@ body {
 	border: 5px solid#274060;
 	color: white;
 }
+
 #AllGoods:hover {
 	transition: 0.3s ease-out;
 	background-color:white;
@@ -83,6 +82,7 @@ body {
 	margin-top: 1em;
 	color: white;
 }
+
 #TradeMe:hover {
 	transition: 0.3s ease-out;
 	background-color: white;
@@ -99,13 +99,13 @@ body {
 }
 
 #footer {
+	position: fixed;
 	color: lightgray;
-	position: absolute;
 	height: 3em;
 	background-color: black;
 	width: 100%;
 	text-align: center;
-	bottom: 0;
+	bottom: 0em;
 }
 
 #footer p a {
