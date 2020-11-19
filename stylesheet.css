@@ -98,7 +98,7 @@ body {
 	font-style: italic;
 }
 
-#footer {
+footer {
 	position: fixed;
 	color: lightgray;
 	height: 3em;
@@ -108,8 +108,10 @@ body {
 	bottom: 0em;
 }
 
-#footer p a {
+footer, footer p a {
+	font-size: 0.8rem;
 	color: white;
+	font-family: verdana, sans-serif;
 }
 
 #social-links {
